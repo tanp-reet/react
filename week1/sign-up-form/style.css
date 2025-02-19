@@ -1,0 +1,57 @@
+form {
+    margin-inline: auto;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#name-container, #password-container, #buttons-container {
+    display: flex;
+    gap: 1em;
+}
+
+#first-name, #last-name, #password, #confirm-password, .btn {
+    width: 100%;
+}
+
+#terms {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+#terms-agree {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    
+}
+input {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+span {
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color:dodgerblue;
+    color: white;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#register-btn {
+    background-color: dodgerblue;
+}
+
+#sign-in-btn {
+    background-color:limegreen;
+}
