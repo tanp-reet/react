@@ -1,13 +1,5 @@
 const books = [
     {
-        title: 'The Poppy War',
-        author: 'R. F. Kuang',
-        published: 2018,
-        pages: 545,
-        rating: 4.17,
-        genre: new Set(['historical-fiction', 'high-fantasy', 'dark'])
-    },
-    {
         title: 'Alchemised',
         author: 'SenLinYu',
         published: 2025,
@@ -16,12 +8,12 @@ const books = [
         genre: new Set(['dark-fantasy', 'romance', 'fiction'])
     },
     {
-        title: 'The Secret History',
-        author: 'Donna Tartt',
-        published: 1992,
-        pages: 576,
+        title: 'The Poppy War',
+        author: 'R. F. Kuang',
+        published: 2018,
+        pages: 545,
         rating: 4.17,
-        genre: new Set(['dark-academia', 'literary-fiction', 'mystery'])
+        genre: new Set(['historical-fiction', 'high-fantasy', 'dark'])
     },
     {
         title: 'Gone Girl',
@@ -30,6 +22,14 @@ const books = [
         pages: 422,
         rating: 4.14,
         genre: new Set(['mystery', 'thriller', 'fiction'])
+    },
+    {
+        title: 'The Secret History',
+        author: 'Donna Tartt',
+        published: 1992,
+        pages: 576,
+        rating: 4.17,
+        genre: new Set(['dark-academia', 'literary-fiction', 'mystery'])
     },
     {
         title: 'The Hunger Games',
